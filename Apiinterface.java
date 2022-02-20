@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public interface Apiinterface {
 
-    String BASE_URL="https://corona.lmao.ninja/v2/";
+    String BASE_URL="https://corona.lmao.ninja";
 
     @GET("countries")
     Call<List<ModelClass>>getcountrydata();
